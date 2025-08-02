@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .prose {
+    @apply text-gray-300;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    @apply text-white;
+  }
+  .prose a {
+    @apply text-accent-red hover:text-red-700;
+  }
+  .prose blockquote {
+    @apply border-l-4 border-accent-red/50 pl-4 text-gray-400;
+  }
+  .prose code {
+    @apply text-accent-red;
+  }
+}

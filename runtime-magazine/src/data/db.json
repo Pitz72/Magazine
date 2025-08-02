@@ -1,0 +1,41 @@
+{
+  "categories": [
+    { "id": 1, "name": "Politica" },
+    { "id": 2, "name": "Società" },
+    { "id": 3, "name": "Cultura Geek" },
+    { "id": 4, "name": "Tecnologia" }
+  ],
+  "authors": [
+    { "id": 1, "name": "Mario Rossi" },
+    { "id": 2, "name": "Luigi Verdi" }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "La nuova era della programmazione",
+      "excerpt": "Un'analisi approfondita delle nuove tendenze nel mondo dello sviluppo software.",
+      "content": "Contenuto completo dell'articolo sulla nuova era della programmazione...",
+      "categoryId": 4,
+      "authorId": 1,
+      "date": "2024-07-20"
+    },
+    {
+      "id": 2,
+      "title": "L'impatto sociale dei social media",
+      "excerpt": "Come i social media stanno cambiando il nostro modo di interagire e di percepire la realtà.",
+      "content": "Contenuto completo dell'articolo sull'impatto dei social media...",
+      "categoryId": 2,
+      "authorId": 2,
+      "date": "2024-07-19"
+    },
+    {
+      "id": 3,
+      "title": "Il ritorno del retro-gaming",
+      "excerpt": "Un viaggio nostalgico nel mondo dei videogiochi del passato.",
+      "content": "Contenuto completo dell'articolo sul retro-gaming...",
+      "categoryId": 3,
+      "authorId": 1,
+      "date": "2024-07-18"
+    }
+  ]
+}
